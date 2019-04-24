@@ -1,0 +1,9 @@
+<div class="card-content">
+  <div class="card-title">Employee Data</div>
+  <ul class="collection">
+    <app-employee-item *ngFor="let e of employeeData; index as i; trackBy: trackByFn" [employee]="e">
+
+    </app-employee-item>
+
+  </ul>
+</div>
